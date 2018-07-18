@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SDFASDFASDF"
+        android:textSize="12dp"
+        android:id="@+id/Chat_Content_Sender_LEFT"
+        />
+
+    <LinearLayout
+        android:id="@+id/Chat_Content_Layout_LEFT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="@drawable/message_left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Chat_Content_MSG_LEFT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iaushdiuashd" />
+
+        <Button
+            android:id="@+id/Chat_Content_REC_LEFT"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="asdasd"
+            android:textSize="11dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SDFASDFASDF"
+        android:textSize="12dp"
+        android:id="@+id/Chat_Content_Sender_RIGHT"
+        />
+    <LinearLayout
+        android:id="@+id/Chat_Content_Layout_RIGHT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:background="@drawable/message_right"
+        >
+        <TextView
+            android:id="@+id/Chat_Content_MSG_RIGHT"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="iaushdiuashd"
+            />
+        <Button
+            android:id="@+id/Chat_Content_REC_RIGHT"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:text="asdasd"
+            android:textSize="11dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

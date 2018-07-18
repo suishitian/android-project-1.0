@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    >
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="username:"
+                android:textSize="20dp"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/register_username"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="account:"
+                android:textSize="20dp"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/register_account"
+                />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="password:"
+                android:textSize="20dp"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/register_password"
+                />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="register"
+                android:id="@+id/register_resgiter"
+                android:layout_weight="1"
+                />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
